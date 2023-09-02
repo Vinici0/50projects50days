@@ -1,0 +1,28 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+
+.cont{
+    height: 100vh;
+}
+
+.cont-n1{
+    width:  90%;    
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.cont-n2{
+    width: 150px;
+    height: 100%;
+    margin: 15px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    background-color: rgb(60, 172, 32);
+    border-radius: 10px;
+    transition: width 2s;
+}
