@@ -10,7 +10,7 @@ items.forEach((item) => {
     });
 
     // Haz más grande el elemento que fue clickeado
-    item.style.width = "330px"; // Cambia el ancho al hacer clic
+    item.style.width = "50%"; // Cambia el ancho al hacer clic
   });
 });
 
@@ -22,5 +22,5 @@ document.addEventListener('DOMContentLoaded', function() {
 window.addEventListener('load', function() {
     // Tu código aquí se ejecutará cuando todos los recursos de la página (incluyendo imágenes) se hayan cargado completamente.
     // Esto puede ser útil si necesitas esperar a que todos los recursos estén disponibles antes de realizar alguna acción.
-    items1.style.width = '330px';
+    items1.style.width = '50%';
 });
